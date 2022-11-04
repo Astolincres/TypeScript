@@ -15,14 +15,11 @@
 
     * Type error, it can be seen in \example-1, the first function where the input is a string, and at the moment of add two values, JS will concatenate them because of the string type. In the second function JS will add them correctly, this will be acomplish with Number(), changing the type of the input into number.
 
-    ```javascript
-    function add(num1, num2) {
-    return num1 + num2;
-    }
-    ```
+    *Always has to check the type of the variables
 
-    ```javascript
-    function add(num1, num2) {
-    return Number(num1) + Number(num2);
-    }
-    ```
+
+# Auto compile
+
+To auto compile use
+    tcs --init
+Then press ctrl+shift+B, and select tsc: watch - tsconfig.json.
