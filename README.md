@@ -23,3 +23,8 @@
 To auto compile use
     tcs --init
 Then press ctrl+shift+B, and select tsc: watch - tsconfig.json.
+
+# Core Types
+    * number: All numbers, no differentiation between integer or floats,
+    * string: All text values inside "", '', ``,
+    * boolean: Just these two, no "truthy" or "falsy" values.
